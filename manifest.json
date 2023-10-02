@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 2,
+    "name" : "Search Extension",
+    "version" : "1.0",
+    "description" : "Get customized search results right in your browser.",
+    "icons" : {
+        "128" : "media/img/",
+        "48" : "media/img/",
+        "16" : "media/img/"
+    },
+    "browser_action" : {
+        "default_icon" : "media/img/",
+        "default_popup" : "popup.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
